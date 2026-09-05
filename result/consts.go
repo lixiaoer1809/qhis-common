@@ -55,7 +55,7 @@ const (
 // MsgMap 业务码与提示文字映射（全局统一文案）
 var MsgMap = map[int]string{
 	CodeSuccess:        "操作成功",
-	CodeSysError:       "服务器繁忙，请稍后重试",
+	CodeSysError:       "服务端出错了,请联系管理员",
 	CodeParamInvalid:   "请求参数错误",
 	CodeNotFound:       "数据不存在",
 	CodeDuplicate:      "数据已存在",
